@@ -1,9 +1,9 @@
-baseurl = "https://example.org"
-languageCode = "en-us"
+baseurl = "https://ex7763.github.io"
+languageCode = "zh"
 title = "Lithium Theme"
 theme = "hugo-lithium-theme"
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-108871616-1"
+disqusShortname = "ex7763"
 canonifyurls = true
 
 [permalinks]
