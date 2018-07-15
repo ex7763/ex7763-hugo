@@ -1,4 +1,9 @@
-      <footer class="footer">
+<footer class="footer">
+    <ul id="tags">
+  {{ range .Params.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+</ul>
         <ul class="footer-links">
           <li>
             <a href="{{ .Site.RSSLink }}" type="application/rss+xml" target="_blank">RSS feed</a>

@@ -1,34 +1,63 @@
 baseurl = "https://ex7763.github.io/"
 languageCode = "zh"
 title = "ex7763's blog"
-theme = "hugo-lithium-theme"
 googleAnalytics = "UA-108871616-1"
 disqusShortname = "ex7763"
 canonifyurls = true
+defaultContentLanguage = "zh"
+
+# Pagination
+paginate = 3
+paginatePath = "page"
+
+# Theme to use
+theme = "hugo-bootstrap"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[languages.zh]
+  languageName = "繁體中文"
+  copyright = "Copyright (c) 2018 Hsu, Po-Chun"
+
+  [[languages.zh.menu.main]]
+    name = "About"
+    url = "/pages/about/"
+    weight = 1
+  [[languages.zh.menu.main]]
+    name = "Portfolio"
+    url = "/pages/portfolio/"
+    weight = 2
+  [[languages.zh.menu.main]]
+    name = "Articles"
+    url = "/"
+    weight = 3
+
+# Links format
 
 [permalinks]
-    post = "/:year/:month/:day/:title/"
-    page = "/:title/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "Portfolio"
-    url = "/portfolio/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/ex7763"
+  post = "/:year/:month/:title/"
 
 [params]
-    description = ""
+  # Main sections (currently used for the recent posts in the sidebar)
+  mainSections = ["post"]
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+  # Default author
+  author = ""
 
-    [params.icon]
-    url = "favicon.ico"
+  # Date format (default: Jan 2, 2006)
+  # date_format = "Jan 2, 2006"
 
+  # Display post summaries instead of content in list templates (default: true)
+  # truncate = false
+
+  [params.sidebar]
+    # Whether to show the recent posts or not (default: true)
+    # showRecent = false
+
+    # Whether to show the taxonomies or not (default: true)
+    # showTaxonomy = false
+
+    # How many posts to show on the sidebar (Default: 5)
+    # num_recent_posts = 5

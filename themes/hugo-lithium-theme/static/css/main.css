@@ -23,6 +23,20 @@ h6 {
   color: #222;
 }
 
+/* ADD */
+pre {
+    border-radius: 5px;
+    background: #f3f3f3;
+    padding: 5px;
+}
+
+code {
+    border-radius: 5px;
+    background: #f3f3f3;
+    padding: 5px;
+}
+/* ADD END */
+
 a {
   outline: none;
 }

@@ -1,13 +1,15 @@
 ---
 title: "Caveman2-lisp-web-framework-入門-0"
+description: ""
 date: 2018-07-15T12:45:32+08:00
+categories: ["common lisp"]
+tags: ["caveman2"]
 ---
-
-# Caveman2-lisp-web-framework-入門-0
 
 ## 簡介
 [Caveman2](https://github.com/fukamachi/caveman)，作者是 Eitaro Fukamachi 。 Caveman2 是一個功能齊全的 common lisp 的網站框架，常見的模板功能、資料庫、路由的功能都有包含在內，而且後端的部份是建構在[clack](https://github.com/fukamachi/clack)上，所以可以任意切換想要使用的 web server像是[Hunchentoot](https://edicl.github.io/hunchentoot/)或是[Woo](https://github.com/fukamachi/woo)等。
 
+<!--more-->
 
 ## 建立專案
 本系列文章假設大家都有基本的 common lisp 知識（也不用太深入，語法懂就可以了，不過不會可能也沒太大關係），且有開發環境，像是 emacs + slime 、lispworks、lispbox等，還有套件管理程式 quicklisp ，所以就略過這些安裝的部份。
