@@ -1,0 +1,24 @@
+#+BEGIN_COMMENT
+.. title: Portfolio
+.. slug: portfolio
+.. date: 2018-06-11 15:09:33 UTC+08:00
+.. tags: 
+.. category:
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+#+SETUPFILE: ../../org-templates/level-pages.org
+
+* Common lisp
+[[https://github.com/ex7763/cl-sdl2-examples][cl-sdl2-examples]] - 一些用 cl-sdl2 寫的範例程式
+[[https://github.com/ex7763/cl-charms-example][cl-charms-example]] - 用 cl-charms（一個呼叫 ncurses 的庫），做的範例程式，其中有貪吃蛇跟生命遊戲
+[[https://github.com/ex7763/white-watermelon][white-watermelon]] - 一個練習網站弱點攻擊的網站
+* 
+* C
+* 
+* Javascript
+[[http:/ex7763.github.io/pages/code/javascript/scoreTarget/index.html][報靶練習]] - 訓練射箭報靶用
+* 
+* Web
+[[http:/ex7763.github.io/pages/code/web/quiz_game/index.html][問答小遊戲]] - 1062 行動科技與社會的期末專題
