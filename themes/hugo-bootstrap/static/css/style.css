@@ -28,4 +28,9 @@ code {
     background: #f3f3f3;
     padding: 5px;
 }
+
+#disqus_thread {
+    width: 95%;
+    margin: 0 auto;
+}
 /* ADD END */

@@ -1,7 +1,7 @@
 +++
 date = "2018-06-11T21:48:51-07:00"
 title = ""
-
+draft = true
 +++
 
 <div class="blog-sidebar">

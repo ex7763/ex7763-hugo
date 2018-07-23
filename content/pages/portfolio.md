@@ -8,6 +8,7 @@ title = "Portfolio"
 [cl-sdl2-examples](https://github.com/ex7763/cl-sdl2-examples) - 一些用 cl-sdl2 寫的範例程式  
 [cl-charms-example](https://github.com/ex7763/cl-charms-example) - 用 cl-charms（一個呼叫 ncurses 的庫），做的範例程式，其中有貪吃蛇跟生命遊戲  
 [white-watermelon](https://github.com/ex7763/white-watermelon) - 一個練習網站弱點攻擊的網站  
+[oxalis](https://github.com/ex7763/oxalis) - 用 common lisp + qtools 做桌面寵物  
 
 ## C
  
