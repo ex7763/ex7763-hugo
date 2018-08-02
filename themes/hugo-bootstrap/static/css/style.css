@@ -19,11 +19,11 @@
 
 pre {
     border-radius: 5px;
-    background: #f3f3f3;
+    /* background: #f3f3f3; */
     padding: 5px;
 }
 
-code {
+p code {
     border-radius: 5px;
     background: #f3f3f3;
     padding: 5px;
