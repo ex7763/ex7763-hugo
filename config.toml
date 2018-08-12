@@ -10,7 +10,7 @@ defaultContentLanguage = "zh"
 pygmentsCodefences = true #高亮markdown的代码块
 pygmentsCodefencesGuessSyntax = true #高亮markdown中没有标注语言的代码块
 pygmentsStyle = 'friendly' #高亮主题
-    
+
 # Pagination
 paginate = 3
 paginatePath = "page"

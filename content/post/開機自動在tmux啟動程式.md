@@ -13,7 +13,7 @@ emacs ./auto_start.sh
 chmod +x auto_start.sh
 ```
 <!--more-->
-編輯檔案， =autostart= 是 tmux session 的名子， =main= 是開啟視窗的名子。
+編輯檔案， `autostart` 是 tmux session 的名子， `main` 是開啟視窗的名子。
 ``` sh
 #!/bin/sh
 tmux new-session -s autostart -n main -d
